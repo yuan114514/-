@@ -2790,7 +2790,7 @@ local entity = Creator.createEntity({
 entity.Debug.OnEntityEnteredRoom = function(room)
     print("Entity:", entity, "has entered room:", room)
     Speed = 0
-    wait(2)
+    wait(0.8)
     Speed = 170
 end
 
